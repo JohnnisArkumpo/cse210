@@ -15,10 +15,11 @@ class Program
             while(mgs != mnum) {
                 if(gcount == 0) {
                     Random randomGenerator = new Random();
-                    int number = randomGenerator.Next(1,52);
+                    mnum = randomGenerator.Next(1,52);
                 }
                 Console.Write("Guess a number: ");
-                Console.ReadLine();
+                string messagetotakeintoconsideration = Console.ReadLine();
+                mgs = int.Parse(messagetotakeintoconsideration);
                 gcount ++;
                 if(mgs > mnum) {
                     Console.WriteLine("Lower");
