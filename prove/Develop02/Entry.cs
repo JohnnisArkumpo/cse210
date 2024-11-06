@@ -9,5 +9,10 @@ public class Entry
     public void recordEntry(string date, string text, string promptin) 
     {
         Console.WriteLine("recorded");
+        /**
+        Save prompt and date
+        Open text box
+        Save text
+        **/
     }
 }

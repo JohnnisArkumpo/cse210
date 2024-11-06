@@ -9,13 +9,16 @@ public class Journal
     public void storeEntry()
     {
         Console.WriteLine("Pulled from entry");
+        // Save entry to _entries list
     }
     public void saveToFile()
     {
         Console.WriteLine("All entries saved to file");
+        // Save current state of journal
     }
     public void loadFromFile()
     {
         Console.WriteLine("Journal loaded");
+        // Load current state of journal from file
     }
 }
