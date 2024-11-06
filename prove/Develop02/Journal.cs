@@ -1,7 +1,11 @@
 using System;
 
-class Journal
+public class Journal
 {
+    // start
+    public string _author;
+    public string _name;
+    public List<Entry> _entries = new List<Entry>();
     public void storeEntry()
     {
         Console.WriteLine("Pulled from entry");
@@ -13,9 +17,5 @@ class Journal
     public void loadFromFile()
     {
         Console.WriteLine("Journal loaded");
-    }
-    static void Main(string[] args) 
-    {
-        // 
     }
 }
