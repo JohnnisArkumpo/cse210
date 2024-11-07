@@ -10,8 +10,6 @@ public class Entry
     {
         Console.WriteLine("recorded");
         /**
-
-        Save prompt and date
         Open text box
         Save text
         **/
