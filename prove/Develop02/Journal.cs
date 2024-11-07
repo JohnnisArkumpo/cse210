@@ -6,10 +6,11 @@ public class Journal
     public string _author;
     public string _name;
     public List<Entry> _entries = new List<Entry>();
-    public void storeEntry()
+    public void storeEntry(string promptt, DateTime datet, string entryt)
     {
         Console.WriteLine("Pulled from entry");
         // Save entry to _entries list
+
     }
     public void saveToFile()
     {
@@ -20,5 +21,9 @@ public class Journal
     {
         Console.WriteLine("Journal loaded");
         // Load current state of journal from file
+    }
+    public void displayJournal()
+    {
+        Console.WriteLine("this is your entire journal");
     }
 }
