@@ -3,15 +3,14 @@ using System;
 public class Entry
 {
     // start
-    public string _date;
-    public string _prompt;
+    public DateTime _date;
+    public Prompts _prompt = new Prompts();
     public string _text;
     public void recordEntry() 
     {
-        Console.WriteLine("recorded");
-        /**
-        Open text box
-        Save text
-        **/
+        _date = DateTime.Now;
+        Console.WriteLine($"{_prompt.getPrompt()}");
+        Console.Write(" > ");
+        _text = Console.ReadLine();
     }
 }

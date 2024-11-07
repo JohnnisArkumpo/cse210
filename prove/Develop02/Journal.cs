@@ -15,7 +15,7 @@ public class Journal
     public void saveToFile()
     {
         Console.WriteLine("All entries saved to file");
-        // Save current state of journal
+        // Save all journal entries
     }
     public void loadFromFile()
     {

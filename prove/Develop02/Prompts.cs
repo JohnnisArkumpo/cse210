@@ -11,7 +11,4 @@ public class Prompts
         int pn = promptChooser.Next(0, _prompts.Count()-1);
         return _prompts[pn];
     } 
-    public void displayPrompt() {
-        Console.WriteLine($"{getPrompt}");
-    }
 }

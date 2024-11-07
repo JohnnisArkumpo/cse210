@@ -11,11 +11,10 @@ class Program
         Console.Write("What would you like to do? ");
         string tempopt = Console.ReadLine();
         int opt = int.Parse(tempopt);
-
+        Entry myEntry = new Entry();
+        
         switch(opt) {
             case 1:
-                Entry myEntry = new Entry();
-                Prompts myPrompt = new Prompts();
                 myEntry.recordEntry();
             break;
             case 2:
