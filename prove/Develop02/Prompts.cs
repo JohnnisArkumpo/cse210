@@ -2,7 +2,7 @@ using System;
 
 public class Prompts
 {
-    // start
+    // soop (start)
     public List<string> _prompts = new List<string>();
     public string getPrompt() {
         // create list of prompts and return random prompt
