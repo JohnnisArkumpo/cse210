@@ -1,7 +1,6 @@
 using System;
 
-class Scripture
-{
+class Scripture {
     // start
     private List<string> passages = new List<string>();
     private string parseBooks() {

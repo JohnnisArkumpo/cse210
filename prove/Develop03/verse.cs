@@ -1,7 +1,6 @@
 using System;
 
-class Verse
-{
+class Verse {
     // start
     private string passageContent = "And my father dwelt in a tent";
     private string getPassage(string locator) {
