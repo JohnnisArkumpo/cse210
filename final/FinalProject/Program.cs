@@ -13,10 +13,6 @@ class Program
 }
 
 /**
-    FIVE CLASSES
-    Pattern - Abstract or interface
-    Piece
-    Player
-    Board
-    Effect - Abstract or interface
+    Figure out inheritance functions
+    finish out stunting functions and creating their interactions in program
 **/
